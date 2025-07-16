@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Abstractions\" />
-    <Folder Include="CommandBus\" />
-    <Folder Include="Events\" />
   </ItemGroup>
 
   <ItemGroup>

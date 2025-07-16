@@ -6,6 +6,6 @@ namespace RabbitMQ.Service.Bus.RabbitMq
     {
         bool IsConnected { get; }
         bool TryConnect();
-        IModel CreateModel(); // IModel is part of RabbitMQ.Client namespace
+        IModel CreateModel();
     }
 }

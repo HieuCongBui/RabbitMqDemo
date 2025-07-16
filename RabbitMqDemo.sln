@@ -9,6 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Consumer.Api", "Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Service.Bus", "RabbitMQ.Service.Bus\RabbitMQ.Service.Bus.csproj", "{BFEEEF63-A67C-453E-9647-7B2A095B243D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB24CDB9-B35B-4375-A4DC-E4E8372C7D4D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.Dev.Infrastructure.yaml = docker-compose.Dev.Infrastructure.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14120EC4-EE58-42D2-8064-0C0186B1DF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Contract", "RabbitMQ.Contract\RabbitMQ.Contract.csproj", "{7E93BF40-CD24-41F5-81BC-25E4180C6083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +36,18 @@ Global
 		{BFEEEF63-A67C-453E-9647-7B2A095B243D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFEEEF63-A67C-453E-9647-7B2A095B243D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFEEEF63-A67C-453E-9647-7B2A095B243D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E93BF40-CD24-41F5-81BC-25E4180C6083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E93BF40-CD24-41F5-81BC-25E4180C6083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E93BF40-CD24-41F5-81BC-25E4180C6083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E93BF40-CD24-41F5-81BC-25E4180C6083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE5511BE-5114-41CA-ABCE-CF5CDB8C6D57} = {14120EC4-EE58-42D2-8064-0C0186B1DF93}
+		{47F98F2C-535A-4972-8D60-B95ED20B6928} = {14120EC4-EE58-42D2-8064-0C0186B1DF93}
+		{BFEEEF63-A67C-453E-9647-7B2A095B243D} = {14120EC4-EE58-42D2-8064-0C0186B1DF93}
+		{7E93BF40-CD24-41F5-81BC-25E4180C6083} = {14120EC4-EE58-42D2-8064-0C0186B1DF93}
 	EndGlobalSection
 EndGlobal
